@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-//Load Scene Asynchronously
+//Load Scene Asynchronously  PS: need add scene to build setting
 public class LoadingBarScript : MonoBehaviour
 {
 
