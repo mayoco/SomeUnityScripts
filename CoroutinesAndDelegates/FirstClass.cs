@@ -6,6 +6,11 @@ public class FirstClass: MonoBehaviour{
     public delegate void Print(string message);
     public static event Print print;
     
+    
+    //Trick for Data Encapsulation: Visible in inspector and can drag reference to it and keep it private
+    [SerializeField]
+    private GameObject someRef;
+    
     void Start(){
     //StartCoroutine (DelayTime());
     
