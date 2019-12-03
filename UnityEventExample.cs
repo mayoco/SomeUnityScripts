@@ -27,4 +27,10 @@ public class UnityEventExample : MonoBehaviour
     {
         Debug.Log("Ping");
     }
+    
+    ////eg addListener中传递参数 
+    // levelItem.GetComponent<Toggle>().onValueChanged.AddListener(
+    //delegate {
+    //    SetSelectedLevel(levelList[currentItem].Number);
+    //});       
 }
