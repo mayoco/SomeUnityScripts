@@ -7,3 +7,4 @@ Coroutines and Delegates
 Load Scene Asynchronously  
 ClaimAndBindingEvents
 UnityEvent Example
+ConfigRead
