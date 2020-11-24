@@ -6,7 +6,7 @@ using System.IO;
 using System.Text;
 using UnityEngine.UI;
 
-public class ReadWriteToFile : MonoBehaviour
+public class ReadWriteFile : MonoBehaviour
 {//读写txt到hololens文件系统中 具体路径为 User Folders \ LocalAppData \ 相应app文件夹 \ LocalState \
     //通过windows device portal 可以删除并上传新的txt文件,达到类似修改配置文件的效果
     public Text debugText;
