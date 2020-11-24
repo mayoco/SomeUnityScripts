@@ -182,17 +182,11 @@ public class TcpClient : MonoBehaviour
     {
         switch (newMSg)
         {
-            case "MainDisplay":
-                SystemsManager.instance.StartSystemIndexBySystemChangeCheck(0);
+            case "AB":
+                //...do something...
                 break;
-            case "TenWangGe":
-                SystemsManager.instance.StartSystemIndexBySystemChangeCheck(1);
-                break;
-            case "SmartMedical":
-                SystemsManager.instance.StartSystemIndexBySystemChangeCheck(2);
-                break;
-            case "FireControl":
-                SystemsManager.instance.StartSystemIndexBySystemChangeCheck(3);
+            case "CD":
+                //...do something...
                 break;
             default:
                 break;
